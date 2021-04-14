@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background:linear-gradient(#f75ea8,#5ef7db,#ebe98f);
+    background-repeat: no-repeat;
+}
+img{
+    width: 100px;
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 3px #0000;
+}
+p{
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+#bio{
+    font-size: 42;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(#44ff00,#fffb00);
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+.links{
+    float: left;
+    top:10px;
+    right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    border: 2px #18127a;
+}
+.links:hover{
+    background-image: linear-gradient(#540ccf,#00ff6a,#cc25b6);
+    font-size: 25px;
+    text-decoration: underline;
+    color: crimson;
+    font-family: fantasy;
+}
